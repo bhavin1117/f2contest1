@@ -23,7 +23,7 @@ let arr = [
     PrintDeveloperbyMap();
   
   function PrintDeveloperbyForEach() {
-    //Write your code here , just console.log
+
        
     
         let developerList = [];
@@ -40,7 +40,6 @@ let arr = [
     PrintDeveloperbyForEach();
   
   function addData() {
-    //Write your code here, just console.log
         let arr = [
             { id: 1, name: "john", age: "18", profession: "developer" },
             { id: 2, name: "jack", age: "20", profession: "developer" },
