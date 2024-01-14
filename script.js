@@ -75,7 +75,6 @@ let arr = [
     removeAdmin();
   
   function concatenateArray() {
-    //Write your code here, just console.log
 
         
         let newArr = [
