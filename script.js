@@ -8,11 +8,6 @@ let arr = [
   
   function PrintDeveloperbyMap() {
     //Write your code here , just console.log
-        let arr = [
-            { id: 1, name: "john", age: "18", profession: "developer" },
-            { id: 2, name: "jack", age: "20", profession: "developer" },
-            { id: 3, name: "karen", age: "19", profession: "admin" },
-        ];
     
         let developerList = arr.map(function(employee) {
             if (employee.profession === "developer") {
@@ -29,11 +24,7 @@ let arr = [
   
   function PrintDeveloperbyForEach() {
     //Write your code here , just console.log
-        let arr = [
-            { id: 1, name: "john", age: "18", profession: "developer" },
-            { id: 2, name: "jack", age: "20", profession: "developer" },
-            { id: 3, name: "karen", age: "19", profession: "admin" },
-        ];
+       
     
         let developerList = [];
     
@@ -72,11 +63,7 @@ let arr = [
   
   function removeAdmin() {
     //Write your code here, just console.log
-        let arr = [
-            { id: 1, name: "john", age: "18", profession: "developer" },
-            { id: 2, name: "jack", age: "20", profession: "developer" },
-            { id: 3, name: "karen", age: "19", profession: "admin" },
-        ];
+        
 
             let updatedArr = arr.filter(function(person) {
                 return person.profession !== "admin";
@@ -90,12 +77,7 @@ let arr = [
   function concatenateArray() {
     //Write your code here, just console.log
 
-        let arr = [
-                { id: 1, name: "john", age: "18", profession: "developer" },
-                { id: 2, name: "jack", age: "20", profession: "developer" },
-                { id: 3, name: "karen", age: "19", profession: "admin" },  
-            ];
-     
+        
         let newArr = [
             { id: 4, name: "rajesh", age: "21", profession: "designer" },
             { id: 5, name: "ramnlal", age: "22", profession: "developer" },
